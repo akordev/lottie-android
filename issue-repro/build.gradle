@@ -21,4 +21,6 @@ android {
 dependencies {
     implementation project(':lottie')
     implementation libs.androidx.appcompat
+    implementation(libs.androidx.constraintlayout.v214)
+    implementation(libs.androidx.fragment)
 }

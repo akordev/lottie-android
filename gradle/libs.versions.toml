@@ -4,6 +4,7 @@
 
 androidx-activity-compose = "androidx.activity:activity-compose:_"
 androidx-appcompat = "androidx.appcompat:appcompat:_"
+androidx-constraintlayout-v214 = { module = "androidx.constraintlayout:constraintlayout", version = "2.1.4" }
 androidx-fragment = "androidx.fragment:fragment-ktx:_"
 androidx-browser = "androidx.browser:browser:_"
 androidx-cardview = "androidx.cardview:cardview:_"

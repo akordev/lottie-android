@@ -9,6 +9,12 @@ class IssueReproActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = IssueReproActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        // Reproduce any issues here.
+        if (savedInstanceState == null) {
+            supportFragmentManager
+                .beginTransaction()
+                .add(R.id.fragment_container_view, MainFragment())
+                .addToBackStack("MainFragment")
+                .commit()
+        }
     }
 }
